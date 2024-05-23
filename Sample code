@@ -1,0 +1,9 @@
+# sample_code.py
+
+def greet(name):
+    """Function to greet someone."""
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    name = input("Enter your name: ")
+    greet(name)
